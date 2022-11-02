@@ -18,10 +18,10 @@ public class InitialSetups {
 
 	public InitialSetups() {
 		try {
-			prop = new Properties();
+
 			FileInputStream fs = new FileInputStream(
 					System.getProperty("user.dir") + "/src/main/java/com/crm/qa/configarations/config.properties");
-
+			prop = new Properties();
 			prop.load(fs);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
