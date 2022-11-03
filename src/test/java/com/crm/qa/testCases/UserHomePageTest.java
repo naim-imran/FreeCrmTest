@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.crm.qa.initialComponents.InitialSetups;
 import com.crm.qa.pages.LoginPage;
+import com.crm.qa.pages.NewContactPage;
 import com.crm.qa.pages.UserHomePage;
 import com.crm.qa.utilities.TestUtils;
 
@@ -14,6 +15,7 @@ public class UserHomePageTest extends InitialSetups {
 	LoginPage logInPage;
 	UserHomePage userHomePage;
 	TestUtils testUtils;
+	NewContactPage newContactPage;
 
 	public UserHomePageTest() {
 		super();
@@ -25,6 +27,7 @@ public class UserHomePageTest extends InitialSetups {
 		logInPage = new LoginPage();
 		testUtils = new TestUtils();
 		userHomePage = logInPage.login(prop.getProperty("userName"), prop.getProperty("password"));
+	
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -44,11 +47,18 @@ public class UserHomePageTest extends InitialSetups {
 		testUtils.switchToFrameCRM();
 		Assert.assertTrue(userHomePage.getUserNamelabel());
 	}
-	
+
 	@Test(priority = 3)
 	public void contactsButtonClickTest() {
 		testUtils.switchToFrameCRM();
 		userHomePage.clickContactButton();
+	}
+
+	@Test(priority = 4)
+	public void clickNewContactTest() {
+		userHomePage.mouseOverOnContactsButton();
+		newContactPage = userHomePage.clickOnNewContactsButton();
+		Assert.assertTrue(newContactPage.verifyNewContactPage());
 	}
 
 	@AfterMethod
