@@ -2,6 +2,7 @@ package com.crm.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.crm.qa.initialComponents.InitialSetups;
 
@@ -18,6 +19,10 @@ public class UserHomePage extends InitialSetups {
 
 	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
 	WebElement taskButton;
+
+	public UserHomePage() {
+		PageFactory.initElements(driver, this);
+	}
 
 	public String pageTitle() {
 		return driver.getTitle();

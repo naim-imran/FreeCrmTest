@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testCases.UserHomePageTest">
+      <class name="com.crm.qa.testCases.ContactsPageTest">
         <methods>
-          <include name="verifyUserNameLabel"/>
-          <include name="launchBrowser"/>
+          <include name="selectMultipleContactCheckBoxTest"/>
+          <include name="selectContactCheckBoxTest"/>
+          <include name="setupCom"/>
+          <include name="verifyContactsPageTest"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.crm.qa.testCases.UserHomePageTest -->
+      </class> <!-- com.crm.qa.testCases.ContactsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

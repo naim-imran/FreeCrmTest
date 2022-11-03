@@ -44,6 +44,12 @@ public class UserHomePageTest extends InitialSetups {
 		testUtils.switchToFrameCRM();
 		Assert.assertTrue(userHomePage.getUserNamelabel());
 	}
+	
+	@Test(priority = 3)
+	public void contactsButtonClickTest() {
+		testUtils.switchToFrameCRM();
+		userHomePage.clickContactButton();
+	}
 
 	@AfterMethod
 	public void quitBrowser() {
