@@ -5,7 +5,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.crm.qa.initialComponents.InitialSetups;
 import com.crm.qa.pages.AddNewContactPage;
 import com.crm.qa.pages.LoginPage;
