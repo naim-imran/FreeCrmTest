@@ -53,6 +53,4 @@ public class AddNewContactPageTest extends InitialSetups {
 	public void quitBrowser() {
 		driver.quit();
 	}
-	
-
 }
