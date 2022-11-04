@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testCases.UserHomePageTest">
+      <class name="com.crm.qa.testCases.AddNewContactPageTest">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="clickNewContactTest"/>
-          <include name="quitBrowser"/>
+          <include name="initialSetups"/>
+          <include name="addNewContactTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testCases.UserHomePageTest -->
+      </class> <!-- com.crm.qa.testCases.AddNewContactPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

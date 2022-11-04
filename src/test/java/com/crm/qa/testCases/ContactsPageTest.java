@@ -28,13 +28,6 @@ public class ContactsPageTest extends InitialSetups {
 		userHomePage = logInPage.login(prop.getProperty("userName"), prop.getProperty("password"));
 		testUtils.switchToFrameCRM();
 		contactPage = userHomePage.clickContactButton();
-
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 
 	@Test(priority=1)
@@ -53,6 +46,7 @@ public class ContactsPageTest extends InitialSetups {
 		contactPage.selectContactCheckBox("test crm");
 		contactPage.selectContactCheckBox("j john");
 	}
+	
 
 	@AfterMethod
 	public void quitBrowser() {

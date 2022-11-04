@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.crm.qa.initialComponents.InitialSetups;
 import com.crm.qa.pages.LoginPage;
-import com.crm.qa.pages.NewContactPage;
+import com.crm.qa.pages.AddNewContactPage;
 import com.crm.qa.pages.UserHomePage;
 import com.crm.qa.utilities.TestUtils;
 
@@ -15,7 +15,7 @@ public class UserHomePageTest extends InitialSetups {
 	LoginPage logInPage;
 	UserHomePage userHomePage;
 	TestUtils testUtils;
-	NewContactPage newContactPage;
+	AddNewContactPage newContactPage;
 
 	public UserHomePageTest() {
 		super();
@@ -57,7 +57,7 @@ public class UserHomePageTest extends InitialSetups {
 	@Test(priority = 4)
 	public void clickNewContactTest() {
 		userHomePage.mouseOverOnContactsButton();
-		newContactPage = userHomePage.clickOnNewContactsButton();
+		newContactPage = userHomePage.clickOnNewContactButton();
 		Assert.assertTrue(newContactPage.verifyNewContactPage());
 	}
 

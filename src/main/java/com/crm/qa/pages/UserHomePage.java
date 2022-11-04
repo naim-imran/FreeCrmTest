@@ -53,9 +53,9 @@ public class UserHomePage extends InitialSetups {
 		action.moveToElement(contactsButton).build().perform();
 	}
 	
-	public NewContactPage clickOnNewContactsButton() {
+	public AddNewContactPage clickOnNewContactButton() {
 		newContactsButton.click();
-		return new NewContactPage();
+		return new AddNewContactPage();
 	}
 
 	public ContactsPage clickDealsButton() {
