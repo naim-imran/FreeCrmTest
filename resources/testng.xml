@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="Free CRM Automation Test Suite">
   <test thread-count="5" name="Free CRM Automation Test">
     <classes>
+      
       <class name="com.crm.qa.testCases.UserHomePageTest"/>
       <class name="com.crm.qa.testCases.LogInPageTest"/>
       <class name="com.crm.qa.testCases.ContactsPageTest"/>
       <class name="com.crm.qa.testCases.AddNewContactPageTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
