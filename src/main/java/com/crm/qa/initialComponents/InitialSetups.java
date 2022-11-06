@@ -3,7 +3,6 @@ package com.crm.qa.initialComponents;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,9 +40,9 @@ public class InitialSetups {
 		}
 
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3));
+		driver.manage().deleteAllCookies();
+		//driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
 
 	}
