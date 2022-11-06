@@ -11,5 +11,5 @@
       <class name="com.crm.qa.testCases.AddNewContactPageTest"/>
       
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> <!-- Test tag -->
+</suite> <!-- Suite tag-->
