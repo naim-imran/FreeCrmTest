@@ -25,7 +25,8 @@ public class InitialSetups {
             e.printStackTrace();
         }
     }
-
+    
+    
     public static void initializeBrowser() {
         String browserName = prop.getProperty("browser");
         if (browserName.equalsIgnoreCase("chrome")) {

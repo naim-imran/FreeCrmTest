@@ -1,68 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
-    <reporter-output>
-    </reporter-output>
-    <suite started-at="2022-11-06T07:26:17 EST" name="Free CRM Automation Test Suite"
-           finished-at="2022-11-06T07:28:37 EST" duration-ms="140091">
-        <groups>
-        </groups>
-        <test started-at="2022-11-06T07:26:17 EST" name="Free CRM Automation Test" finished-at="2022-11-06T07:28:37 EST"
-              duration-ms="140091">
-            <class name="com.crm.qa.testCases.ContactsPageTest">
-                <test-method is-config="true"
-                             signature="setupCom()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                             started-at="2022-11-06T07:27:19 EST" name="setupCom" finished-at="2022-11-06T07:27:26 EST"
-                             duration-ms="7325" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- setupCom -->
-                <test-method
-                        signature="verifyContactsPageTest()[pri:1, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                        started-at="2022-11-06T07:27:26 EST" name="verifyContactsPageTest"
-                        finished-at="2022-11-06T07:27:26 EST" duration-ms="35" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- verifyContactsPageTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                             started-at="2022-11-06T07:27:26 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:27:26 EST" duration-ms="162" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="setupCom()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                             started-at="2022-11-06T07:27:26 EST" name="setupCom" finished-at="2022-11-06T07:27:33 EST"
-                             duration-ms="7066" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- setupCom -->
-                <test-method
-                        signature="selectContactCheckBoxTest()[pri:2, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                        started-at="2022-11-06T07:27:33 EST" name="selectContactCheckBoxTest"
-                        finished-at="2022-11-06T07:27:43 EST" duration-ms="10049" status="FAIL">
-                    <exception class="org.openqa.selenium.NoSuchElementException">
-                        <message>
-                            <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-06T08:26:54 EST" name="Free CRM Automation Test Suite" finished-at="2022-11-06T08:29:11 EST" duration-ms="136614">
+    <groups>
+    </groups>
+    <test started-at="2022-11-06T08:26:54 EST" name="Free CRM Automation Test" finished-at="2022-11-06T08:29:11 EST" duration-ms="136614">
+      <class name="com.crm.qa.testCases.ContactsPageTest">
+        <test-method is-config="true" signature="setupCom()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:27:56 EST" name="setupCom" finished-at="2022-11-06T08:28:03 EST" duration-ms="7281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCom -->
+        <test-method signature="verifyContactsPageTest()[pri:1, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:03 EST" name="verifyContactsPageTest" finished-at="2022-11-06T08:28:03 EST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:03 EST" name="quitBrowser" finished-at="2022-11-06T08:28:03 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setupCom()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:03 EST" name="setupCom" finished-at="2022-11-06T08:28:10 EST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCom -->
+        <test-method signature="selectContactCheckBoxTest()[pri:2, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:10 EST" name="selectContactCheckBoxTest" finished-at="2022-11-06T08:28:20 EST" duration-ms="10028" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [639a618bd091998e0bac0e6953093d9e, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:52293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52293/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 639a618bd091998e0bac0e6953093d9e]]>
-                        </message>
-                        <full-stacktrace>
-                            <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
+Command: [8f5ceb58ac21d305f02696f25f29e3bf, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:53259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53259/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f5ceb58ac21d305f02696f25f29e3bf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [639a618bd091998e0bac0e6953093d9e, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:52293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52293/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 639a618bd091998e0bac0e6953093d9e
+Command: [8f5ceb58ac21d305f02696f25f29e3bf, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:53259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53259/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f5ceb58ac21d305f02696f25f29e3bf
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -79,7 +62,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at com.crm.qa.pages.ContactsPage.selectContactCheckBox(ContactsPage.java:24)
+at com.crm.qa.pages.ContactsPage.selectContactCheckBox(ContactsPage.java:23)
 at com.crm.qa.testCases.ContactsPageTest.selectContactCheckBoxTest(ContactsPageTest.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -110,51 +93,42 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-                        </full-stacktrace>
-                    </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- selectContactCheckBoxTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                             started-at="2022-11-06T07:27:43 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:27:44 EST" duration-ms="157" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="setupCom()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                             started-at="2022-11-06T07:27:44 EST" name="setupCom" finished-at="2022-11-06T07:27:51 EST"
-                             duration-ms="7796" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- setupCom -->
-                <test-method
-                        signature="selectMultipleContactCheckBoxTest()[pri:3, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                        started-at="2022-11-06T07:27:51 EST" name="selectMultipleContactCheckBoxTest"
-                        finished-at="2022-11-06T07:28:01 EST" duration-ms="10032" status="FAIL">
-                    <exception class="org.openqa.selenium.NoSuchElementException">
-                        <message>
-                            <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContactCheckBoxTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:20 EST" name="quitBrowser" finished-at="2022-11-06T08:28:20 EST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setupCom()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:20 EST" name="setupCom" finished-at="2022-11-06T08:28:27 EST" duration-ms="6980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCom -->
+        <test-method signature="selectMultipleContactCheckBoxTest()[pri:3, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:27 EST" name="selectMultipleContactCheckBoxTest" finished-at="2022-11-06T08:28:37 EST" duration-ms="10024" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [edd5f16855049e6b07246c95649f8709, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:52323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52323/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: edd5f16855049e6b07246c95649f8709]]>
-                        </message>
-                        <full-stacktrace>
-                            <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
+Command: [fcc37ca9c8f39da58f6b096409ccd037, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:53289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53289/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fcc37ca9c8f39da58f6b096409ccd037]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']"}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [edd5f16855049e6b07246c95649f8709, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:52323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52323/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: edd5f16855049e6b07246c95649f8709
+Command: [fcc37ca9c8f39da58f6b096409ccd037, findElement {using=xpath, value=//a[contains(text(),'test crm')]//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/gf/gthvsq1n1rz...}, goog:chromeOptions: {debuggerAddress: localhost:53289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53289/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fcc37ca9c8f39da58f6b096409ccd037
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -171,7 +145,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at com.crm.qa.pages.ContactsPage.selectContactCheckBox(ContactsPage.java:24)
+at com.crm.qa.pages.ContactsPage.selectContactCheckBox(ContactsPage.java:23)
 at com.crm.qa.testCases.ContactsPageTest.selectMultipleContactCheckBoxTest(ContactsPageTest.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -202,305 +176,205 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-                        </full-stacktrace>
-                    </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- selectMultipleContactCheckBoxTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]"
-                             started-at="2022-11-06T07:28:01 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:28:02 EST" duration-ms="154" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-            </class> <!-- com.crm.qa.testCases.ContactsPageTest -->
-            <class name="com.crm.qa.testCases.UserHomePageTest">
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:17 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:26:34 EST" duration-ms="16342" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method
-                        signature="verifyUserHomePageTitleTest()[pri:1, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                        started-at="2022-11-06T07:26:34 EST" name="verifyUserHomePageTitleTest"
-                        finished-at="2022-11-06T07:26:34 EST" duration-ms="13" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- verifyUserHomePageTitleTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:34 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:26:34 EST" duration-ms="162" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:34 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:26:43 EST" duration-ms="9444" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method
-                        signature="verifyUserNameLabel()[pri:2, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                        started-at="2022-11-06T07:26:43 EST" name="verifyUserNameLabel"
-                        finished-at="2022-11-06T07:26:43 EST" duration-ms="73" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- verifyUserNameLabel -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:43 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:26:44 EST" duration-ms="157" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:44 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:26:53 EST" duration-ms="9612" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method
-                        signature="contactsButtonClickTest()[pri:3, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                        started-at="2022-11-06T07:26:53 EST" name="contactsButtonClickTest"
-                        finished-at="2022-11-06T07:26:54 EST" duration-ms="672" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- contactsButtonClickTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:54 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:26:54 EST" duration-ms="155" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:26:54 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:27:03 EST" duration-ms="9473" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method
-                        signature="clickNewContactTest()[pri:4, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                        started-at="2022-11-06T07:27:03 EST" name="clickNewContactTest"
-                        finished-at="2022-11-06T07:27:04 EST" duration-ms="873" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- clickNewContactTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]"
-                             started-at="2022-11-06T07:27:04 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:27:05 EST" duration-ms="155" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-            </class> <!-- com.crm.qa.testCases.UserHomePageTest -->
-            <class name="com.crm.qa.testCases.LogInPageTest">
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:05 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:27:08 EST" duration-ms="3407" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method
-                        signature="validateTitleTest()[pri:1, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                        started-at="2022-11-06T07:27:08 EST" name="validateTitleTest"
-                        finished-at="2022-11-06T07:27:08 EST" duration-ms="34" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- validateTitleTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:08 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:27:08 EST" duration-ms="118" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:08 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:27:12 EST" duration-ms="3496" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method signature="crmLogoTest()[pri:2, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:12 EST" name="crmLogoTest"
-                             finished-at="2022-11-06T07:27:12 EST" duration-ms="42" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- crmLogoTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:12 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:27:12 EST" duration-ms="179" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:12 EST" name="launchBrowser"
-                             finished-at="2022-11-06T07:27:15 EST" duration-ms="3547" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- launchBrowser -->
-                <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:15 EST" name="loginTest" finished-at="2022-11-06T07:27:19 EST"
-                             duration-ms="3213" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- loginTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]"
-                             started-at="2022-11-06T07:27:19 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:27:19 EST" duration-ms="200" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-            </class> <!-- com.crm.qa.testCases.LogInPageTest -->
-            <class name="com.crm.qa.testCases.AddNewContactPageTest">
-                <test-method is-config="true"
-                             signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:02 EST" name="initialSetups"
-                             finished-at="2022-11-06T07:28:09 EST" duration-ms="7804" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- initialSetups -->
-                <test-method
-                        signature="validateAddNewContactPageTitle()[pri:1, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                        started-at="2022-11-06T07:28:09 EST" name="validateAddNewContactPageTitle"
-                        finished-at="2022-11-06T07:28:09 EST" duration-ms="35" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- validateAddNewContactPageTitle -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:09 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:28:10 EST" duration-ms="176" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:10 EST" name="initialSetups"
-                             finished-at="2022-11-06T07:28:18 EST" duration-ms="7955" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- initialSetups -->
-                <test-method
-                        signature="addNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                        started-at="2022-11-06T07:28:18 EST" name="addNewContactTest" data-provider="getCRMTestData"
-                        finished-at="2022-11-06T07:28:20 EST" duration-ms="1109" status="PASS">
-                    <params>
-                        <param index="0">
-                            <value>
-                                <![CDATA[Mr.]]>
-                            </value>
-                        </param>
-                        <param index="1">
-                            <value>
-                                <![CDATA[Jason]]>
-                            </value>
-                        </param>
-                        <param index="2">
-                            <value>
-                                <![CDATA[Watson]]>
-                            </value>
-                        </param>
-                    </params>
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- addNewContactTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:20 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:28:20 EST" duration-ms="200" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:20 EST" name="initialSetups"
-                             finished-at="2022-11-06T07:28:27 EST" duration-ms="7589" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- initialSetups -->
-                <test-method
-                        signature="addNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                        started-at="2022-11-06T07:28:27 EST" name="addNewContactTest" data-provider="getCRMTestData"
-                        finished-at="2022-11-06T07:28:28 EST" duration-ms="1166" status="PASS">
-                    <params>
-                        <param index="0">
-                            <value>
-                                <![CDATA[Mr.]]>
-                            </value>
-                        </param>
-                        <param index="1">
-                            <value>
-                                <![CDATA[Scot]]>
-                            </value>
-                        </param>
-                        <param index="2">
-                            <value>
-                                <![CDATA[Kent]]>
-                            </value>
-                        </param>
-                    </params>
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- addNewContactTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:28 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:28:29 EST" duration-ms="153" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-                <test-method is-config="true"
-                             signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:29 EST" name="initialSetups"
-                             finished-at="2022-11-06T07:28:36 EST" duration-ms="7425" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- initialSetups -->
-                <test-method
-                        signature="addNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                        started-at="2022-11-06T07:28:36 EST" name="addNewContactTest" data-provider="getCRMTestData"
-                        finished-at="2022-11-06T07:28:37 EST" duration-ms="1179" status="PASS">
-                    <params>
-                        <param index="0">
-                            <value>
-                                <![CDATA[Mr.]]>
-                            </value>
-                        </param>
-                        <param index="1">
-                            <value>
-                                <![CDATA[Chris]]>
-                            </value>
-                        </param>
-                        <param index="2">
-                            <value>
-                                <![CDATA[Mason]]>
-                            </value>
-                        </param>
-                    </params>
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- addNewContactTest -->
-                <test-method is-config="true"
-                             signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]"
-                             started-at="2022-11-06T07:28:37 EST" name="quitBrowser"
-                             finished-at="2022-11-06T07:28:37 EST" duration-ms="172" status="PASS">
-                    <reporter-output>
-                    </reporter-output>
-                </test-method> <!-- quitBrowser -->
-            </class> <!-- com.crm.qa.testCases.AddNewContactPageTest -->
-        </test> <!-- Free CRM Automation Test -->
-    </suite> <!-- Free CRM Automation Test Suite -->
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleContactCheckBoxTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@323b36e0]" started-at="2022-11-06T08:28:37 EST" name="quitBrowser" finished-at="2022-11-06T08:28:38 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.crm.qa.testCases.ContactsPageTest -->
+      <class name="com.crm.qa.testCases.UserHomePageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:26:54 EST" name="launchBrowser" finished-at="2022-11-06T08:27:10 EST" duration-ms="16130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserHomePageTitleTest()[pri:1, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:10 EST" name="verifyUserHomePageTitleTest" finished-at="2022-11-06T08:27:10 EST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserHomePageTitleTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:10 EST" name="quitBrowser" finished-at="2022-11-06T08:27:10 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:10 EST" name="launchBrowser" finished-at="2022-11-06T08:27:20 EST" duration-ms="9617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserNameLabel()[pri:2, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:20 EST" name="verifyUserNameLabel" finished-at="2022-11-06T08:27:20 EST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameLabel -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:20 EST" name="quitBrowser" finished-at="2022-11-06T08:27:20 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:20 EST" name="launchBrowser" finished-at="2022-11-06T08:27:30 EST" duration-ms="9676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="contactsButtonClickTest()[pri:3, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:30 EST" name="contactsButtonClickTest" finished-at="2022-11-06T08:27:31 EST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsButtonClickTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:31 EST" name="quitBrowser" finished-at="2022-11-06T08:27:31 EST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:31 EST" name="launchBrowser" finished-at="2022-11-06T08:27:40 EST" duration-ms="9470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="clickNewContactTest()[pri:4, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:40 EST" name="clickNewContactTest" finished-at="2022-11-06T08:27:41 EST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNewContactTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.UserHomePageTest@20ce78ec]" started-at="2022-11-06T08:27:41 EST" name="quitBrowser" finished-at="2022-11-06T08:27:41 EST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.crm.qa.testCases.UserHomePageTest -->
+      <class name="com.crm.qa.testCases.LogInPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:41 EST" name="launchBrowser" finished-at="2022-11-06T08:27:45 EST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateTitleTest()[pri:1, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:45 EST" name="validateTitleTest" finished-at="2022-11-06T08:27:45 EST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:45 EST" name="quitBrowser" finished-at="2022-11-06T08:27:45 EST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:45 EST" name="launchBrowser" finished-at="2022-11-06T08:27:48 EST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="crmLogoTest()[pri:2, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:48 EST" name="crmLogoTest" finished-at="2022-11-06T08:27:48 EST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:48 EST" name="quitBrowser" finished-at="2022-11-06T08:27:49 EST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:49 EST" name="launchBrowser" finished-at="2022-11-06T08:27:52 EST" duration-ms="3366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:52 EST" name="loginTest" finished-at="2022-11-06T08:27:55 EST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.LogInPageTest@5af3afd9]" started-at="2022-11-06T08:27:55 EST" name="quitBrowser" finished-at="2022-11-06T08:27:56 EST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.crm.qa.testCases.LogInPageTest -->
+      <class name="com.crm.qa.testCases.AddNewContactPageTest">
+        <test-method is-config="true" signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:38 EST" name="initialSetups" finished-at="2022-11-06T08:28:45 EST" duration-ms="7165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetups -->
+        <test-method signature="validateAddNewContactPageTitle()[pri:1, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:45 EST" name="validateAddNewContactPageTitle" finished-at="2022-11-06T08:28:45 EST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContactPageTitle -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:45 EST" name="quitBrowser" finished-at="2022-11-06T08:28:45 EST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:45 EST" name="initialSetups" finished-at="2022-11-06T08:28:52 EST" duration-ms="7092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetups -->
+        <test-method signature="addNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:52 EST" name="addNewContactTest" data-provider="getCRMTestData" finished-at="2022-11-06T08:28:54 EST" duration-ms="1113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Watson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:54 EST" name="quitBrowser" finished-at="2022-11-06T08:28:54 EST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:28:54 EST" name="initialSetups" finished-at="2022-11-06T08:29:01 EST" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetups -->
+        <test-method signature="addNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:29:01 EST" name="addNewContactTest" data-provider="getCRMTestData" finished-at="2022-11-06T08:29:02 EST" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Scot]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:29:02 EST" name="quitBrowser" finished-at="2022-11-06T08:29:02 EST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="initialSetups()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:29:02 EST" name="initialSetups" finished-at="2022-11-06T08:29:09 EST" duration-ms="7113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetups -->
+        <test-method signature="addNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:29:09 EST" name="addNewContactTest" data-provider="getCRMTestData" finished-at="2022-11-06T08:29:10 EST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chris]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mason]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContactTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.crm.qa.testCases.AddNewContactPageTest@44ebcd03]" started-at="2022-11-06T08:29:10 EST" name="quitBrowser" finished-at="2022-11-06T08:29:11 EST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.crm.qa.testCases.AddNewContactPageTest -->
+    </test> <!-- Free CRM Automation Test -->
+  </suite> <!-- Free CRM Automation Test Suite -->
 </testng-results>

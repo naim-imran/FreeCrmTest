@@ -24,17 +24,14 @@ public class TestUtils extends InitialSetups {
         try {
             fs = new FileInputStream(System.getProperty("user.dir") + excelFilePath);
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
         try {
             workBook = WorkbookFactory.create(fs);
         } catch (EncryptedDocumentException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
